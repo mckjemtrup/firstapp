@@ -17,8 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var Textbox2: UITextField!
     
     @IBAction func btnpushed(_ sender: Any) {
-        print(Textbox1.text!)
-        print(Textbox2.text!)
+        TheLabel.text = "Svaret er... \((Double(Textbox1.text!)! + Double(Textbox2.text!)!))"
     }
     
     override func viewDidLoad() {
