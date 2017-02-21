@@ -3,7 +3,7 @@
 //  Swift test
 //
 //  Created by Michael Kjemtrup on 21/02/2017.
-//  Copyright © 2017 Michael Kjemtrup. All rights reserved.
+//  Copyright © 2017 Michael Kjemtrup. All rights reserved..
 //
 
 import UIKit
