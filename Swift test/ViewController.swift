@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 
 class ViewController: UIViewController {
 
@@ -14,10 +15,11 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var Textbox1: UITextField!
     
-    @IBOutlet weak var Textbox2: UITextField!
+   
     
     @IBAction func btnpushed(_ sender: Any) {
-        TheLabel.text = "Svaret er... \((Double(Textbox1.text!)! + Double(Textbox2.text!)!))"
+        
+        TheLabel.text = String(Double.pi*pow(Double(Textbox1.text!)!, 4.0)/32.0)
     }
     
     override func viewDidLoad() {
